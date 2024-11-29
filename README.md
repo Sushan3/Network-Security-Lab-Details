@@ -6,35 +6,37 @@
 I am using Oracle VM Virtual Box to create this project on virtual enviroment.
 
 **#Introduction: Briefly describe the purpose of the lab.**
-Purpose of my lab is the 
+This lab report details the configuration and implementation of a virtual network environment using Oracle VM VirtualBox. The primary objective was to create a functional network topology consisting of multiple virtual machines, including a desktop VM, a gateway router VM, and an application server VM. The network was designed to facilitate communication between these devices, utilizing IP addressing, subnet masking, and routing protocols.
 
 **#Network Diagram: Include the exported diagram.**
+
+
 
 **#IP Address Table: Present the table in a clear and organized format.**
 
 **#Configuration Steps: Detail the steps you took to configure the network.**
 Device Configuration
-Desktop VM:
 
+Desktop VM:
 IP Address: 192.168.34.2/24
 Default Gateway: 192.168.34.1
-Gateway Router VM:
 
+Gateway Router VM:
 Interface enp0s3 (NAT): 10.0.2.15/24
 Interface enp0s8 (Subnet 01): 192.168.134.1/24
 Interface enp0s9 (Subnet 02): 192.168.34.1/24
-Application Server VM:
 
+Application Server VM:
 IP Address: 192.168.134.2/24
 Default Gateway: 192.168.134.1
+
 Configuration Steps
 Create Virtual Machines:
-
 Create virtual machines for the desktop, gateway router, and application server.
 Assign appropriate amounts of RAM and CPU cores to each VM.
 Install operating systems on each VM (e.g., Windows, Linux).
-Network Configuration:
 
+Network Configuration:
 Configure network interfaces on each VM with the specified IP addresses and subnet masks.
 Set the default gateway on each VM to the appropriate IP address of the gateway router interface.
 Configure the gateway router VM to act as a router between the two subnets (192.168.34.0/24 and 192.168.134.0/24).
