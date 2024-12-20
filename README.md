@@ -42,6 +42,48 @@ Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal N
 ![image](https://github.com/user-attachments/assets/d0ea5df2-17bc-4307-a703-e19365c77684)
 
 
+Assign IP address
+command sudo nano /etc/network/interfaces
+
+
+
+Ping the address and gateway to see its working or not.
+
+command ping 192.168.112.1
+
+command ping 192.168.112.2
+
+
+3. Ubuntu Server for Gateway-Router
+   
+Go to Devices-> Network-> Network Settings->
+
+Adapter 1-> Attached to: NAT
+
+![image](https://github.com/user-attachments/assets/06145ecd-3501-4ae7-9776-fdcaeee13a09)
+
+Adapter 2-> Attached to: Internal Network Name: intnet
+
+![image](https://github.com/user-attachments/assets/5f7a94ee-9789-4157-9a05-8c43ba39341d)
+
+
+Adapter 3-> Attached to: Internal Network Name: intnet
+
+![image](https://github.com/user-attachments/assets/bccaf8bd-0b7c-4d7a-941f-9fdf58b5f305)
+
+Network setting in Gateway-Router
+
+command sudo nano /etc/netplan/50-cloud-init.yaml
+
+
+
+
+
+
+
+
+
+
 
 
 
