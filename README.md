@@ -75,6 +75,16 @@ Network setting in Gateway-Router
 
 command sudo nano /etc/netplan/50-cloud-init.yaml
 
+Ping the address and gateway to see its working or not.
+
+command ping 192.168.12.1
+
+command ping 192.168.12.2
+
+command ping 192.168.112.1
+
+command ping 192.168.112.2
+
 
 
 
