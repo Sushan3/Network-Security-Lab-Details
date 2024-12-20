@@ -25,15 +25,22 @@ First we want to assign IP address go to the Setting-> Network
 ![image](https://github.com/user-attachments/assets/c8270e49-e4c3-45b5-a871-a1278cf97e6b)
 
 Go to the wired section then click to setting then select IPv4
+
 In IPv4 Method click to Manual
+
 Addresses assign Address, Netmask, Gateway
 
+![image](https://github.com/user-attachments/assets/4ac17c88-7d17-425f-b69c-094c32df86f5)
+
+![ubuntu](https://github.com/user-attachments/assets/75a2da58-cf2f-4cd3-82be-0ab22cccd03f)
 
 Now go to the Terminal then ping the address and gateway to see its working or not.
 
-command ping 192.168.12.1
+command ping 192.168.34.1
 
-command ping 192.168.12.2
+command ping 192.168.34.2
+
+![ubuntu ping to router and server](https://github.com/user-attachments/assets/ce0e4187-e324-487e-bfa6-f07be37a37ae)
 
 
 2. Bitnami
@@ -43,7 +50,10 @@ Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal N
 
 
 Assign IP address
+
 command sudo nano /etc/network/interfaces
+
+![image](https://github.com/user-attachments/assets/e3f23724-407d-4671-b9d8-04cd2197cb2f)
 
 
 
