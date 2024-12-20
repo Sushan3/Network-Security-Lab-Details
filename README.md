@@ -10,14 +10,19 @@ This lab report details the configuration and implementation of a virtual networ
 **#IP Address Table: Present the table in a clear and organized format.**
 
 Tools
+
 Ubuntu Desktop 24 :- https://ubuntu.com/desktop
+
 Ubuntu Server for Gateway-Router :- https://ubuntu.com/download/server
+
 Bitnami :- https://bitnami.com/stacks/virtual-machine
 
 **#Network Diagram: Include the exported diagram.**
 
 1. Ubuntu Desktop 24
+2. 
 Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network Name: intent
+
 ![image](https://github.com/user-attachments/assets/befe4391-4908-4d55-84ee-bc4f7edfa6de)
 
 First we want to assign IP address go to the Setting-> Network
