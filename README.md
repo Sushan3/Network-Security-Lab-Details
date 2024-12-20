@@ -96,6 +96,8 @@ command sudo nano /etc/netplan/50-cloud-init.yaml
 
 ![image](https://github.com/user-attachments/assets/b0534a8d-7c07-4be4-9d08-ecda31f8c737)
 
+![router](https://github.com/user-attachments/assets/82a4534b-9ccd-4b93-a3a6-decc9c332563)
+
 Ping the address and gateway to see its working or not.
 
 command ping 192.168.34.1
@@ -106,16 +108,13 @@ command ping 192.168.134.1
 
 command ping 192.168.134.2
 
+command ping to google
 
+![router ping to server](https://github.com/user-attachments/assets/ef67c634-56d9-46a4-932e-ed660c5c58c9)
 
+![router ping to google](https://github.com/user-attachments/assets/482d1d85-808e-4dfb-b618-be411f464430)
 
-
-
-
-
-
-
-
+![router ping to desktop](https://github.com/user-attachments/assets/57010418-8090-4782-adc7-5b7a9a235473)
 
 
 
