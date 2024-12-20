@@ -20,7 +20,7 @@ Bitnami :- https://bitnami.com/stacks/virtual-machine
 **#Network Diagram: Include the exported diagram.**
 
 1. Ubuntu Desktop 24
-2. 
+   
 Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network Name: intent
 
 ![image](https://github.com/user-attachments/assets/befe4391-4908-4d55-84ee-bc4f7edfa6de)
