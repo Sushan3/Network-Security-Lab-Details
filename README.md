@@ -7,12 +7,44 @@ I am using Oracle VM Virtual Box to create this project on virtual enviroment.
 
 **#Introduction: Briefly describe the purpose of the lab.**
 This lab report details the configuration and implementation of a virtual network environment using Oracle VM VirtualBox. The primary objective was to create a functional network topology consisting of multiple virtual machines, including a desktop VM, a gateway router VM, and an application server VM. The network was designed to facilitate communication between these devices, utilizing IP addressing, subnet masking, and routing protocols.
+**#IP Address Table: Present the table in a clear and organized format.**
+
+Tools
+Ubuntu Desktop 24 :- https://ubuntu.com/desktop
+Ubuntu Server for Gateway-Router :- https://ubuntu.com/download/server
+Bitnami :- https://bitnami.com/stacks/virtual-machine
 
 **#Network Diagram: Include the exported diagram.**
 
+1. Ubuntu Desktop 24
+Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network Name: intent
+![image](https://github.com/user-attachments/assets/befe4391-4908-4d55-84ee-bc4f7edfa6de)
+
+First we want to assign IP address go to the Setting-> Network
+
+![image](https://github.com/user-attachments/assets/c8270e49-e4c3-45b5-a871-a1278cf97e6b)
+
+Go to the wired section then click to setting then select IPv4
+In IPv4 Method click to Manual
+Addresses assign Address, Netmask, Gateway
 
 
-**#IP Address Table: Present the table in a clear and organized format.**
+Now go to the Terminal then ping the address and gateway to see its working or not.
+
+command ping 192.168.12.1
+
+command ping 192.168.12.2
+
+
+2. Bitnami
+Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network Name: intent
+
+![image](https://github.com/user-attachments/assets/d0ea5df2-17bc-4307-a703-e19365c77684)
+
+
+
+
+
 
 **#Configuration Steps: Detail the steps you took to configure the network.**
 Device Configuration
