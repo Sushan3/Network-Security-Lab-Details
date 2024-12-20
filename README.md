@@ -42,6 +42,10 @@ command ping 192.168.34.2
 
 ![ubuntu ping to router and server](https://github.com/user-attachments/assets/ce0e4187-e324-487e-bfa6-f07be37a37ae)
 
+command ping to google
+
+![ubuntu ping google](https://github.com/user-attachments/assets/c915a37f-7575-47e2-a73e-2e93735bb665)
+
 
 2. Bitnami
 Go to Devices-> Network-> Network Settings-> Adapter 1-> Attached to: Internal Network Name: intent
@@ -56,12 +60,17 @@ command sudo nano /etc/network/interfaces
 ![image](https://github.com/user-attachments/assets/e3f23724-407d-4671-b9d8-04cd2197cb2f)
 
 
-
 Ping the address and gateway to see its working or not.
 
 command ping 192.168.112.1
 
 command ping 192.168.112.2
+
+![server ping to google](https://github.com/user-attachments/assets/631295e0-2faa-48c7-92ce-b55d297eb9ee)
+
+command ping to google
+
+![server ping to desktop and router](https://github.com/user-attachments/assets/11a0be11-e04e-418e-a4cd-4339e14bfdaa)
 
 
 3. Ubuntu Server for Gateway-Router
